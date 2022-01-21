@@ -15,7 +15,7 @@
 <body>
     <!-- header start -->
     <header class="mb-5">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-2">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <div class="container d-flex justify-content-between">
                 <div>
                     <a class="navbar-brand ps-2" href="#">
@@ -38,16 +38,16 @@
                     <div class="collapse navbar-collapse my-3" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item pe-2">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#index.html">Home</a>
                             </li>
                             <li class="nav-item pe-2">
-                                <a class="nav-link active" href="#">Shoes</a>
+                                <a class="nav-link active" href="#shoes">Shoes</a>
                             </li>
                             <li class="nav-item pe-2">
-                                <a class="nav-link active" href="#">Backpack</a>
+                                <a class="nav-link active" href="#backpack">Backpack</a>
                             </li>
                             <li class="nav-item pe-2">
-                                <a class="nav-link active" href="#">Subscribe</a>
+                                <a class="nav-link active" href="#subscribe">Subscribe</a>
                             </li>
                         </ul>
                     </div>
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row bg-secondary bg-gradient d-flex align-items-center p-5">
+                        <div class="row panda-bg-info bg-gradient d-flex align-items-center p-5">
                             <div class="col-lg-7">
                                 <h1>Mega LCD TV For Sports</h1>
                                 <p>This is the best headphone in the world for people who just want to waste time in
@@ -121,9 +121,9 @@
     <!-- main start -->
     <main>
 
-        <!-- categories -->
-        <section class="my-5">
-            <div class="container overflow-hidden">
+        <!-- categories section -->
+        <section class="container categories my-5">
+            <div class="overflow-hidden">
                 <div class="row gy-5">
                     <div class="col-lg-4 col-md-12 col-12">
                         <div
@@ -150,8 +150,8 @@
             </div>
         </section>
 
-        <!-- Shoes -->
-        <section class="container">
+        <!-- Shoes section -->
+        <section class="container" id="shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-4">
                 <div class="col">
@@ -197,10 +197,10 @@
             </div>
         </section>
 
-        <br>
+        <!-- <br> -->
 
-        <!-- Backpack -->
-        <section class="container">
+        <!-- Backpack section -->
+        <section class="container my-5" id="backpack">
             <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-4">
                 <div class="col">
@@ -246,11 +246,22 @@
             </div>
         </section>
 
+        <!-- Subscribe section -->
+        <section style="height: 300px;" id="subscribe"
+            class="container panda-bg-info d-flex justify-content-center align-items-center rounded-3">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales, specials and more</p>
+                <input type="text" placeholder="Your email">
+                <br>
+                <button class="btn btn-warning">SUBMIT</button>
+            </div>
+        </section>
     </main>
     <!-- main end -->
     <!-- footer start -->
-    <footer>
-
+    <footer class="mt-5 text-center">
+        <p><small>©2025. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
     </footer>
     <!-- footer end -->
     <!-- bootstrap script -->
